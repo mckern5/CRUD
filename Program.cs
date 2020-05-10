@@ -42,7 +42,7 @@ namespace CRUD
                 Person readData = context.Persons.Where(j => j.Id == createdId).FirstOrDefault();
 
                 //// UPDATE BEGINS
-                person.Name = "Neha Shrivastava";
+                person.Name = "Matt Kern";
                 person.Gender = false;
                 person.DateOfBirth = new DateTime(2000, 6, 15);
                 person.Id = createdId;   //// For update cases, we need this to be specified.
